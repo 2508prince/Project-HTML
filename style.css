@@ -1,0 +1,53 @@
+.code-box {
+  background-color: #f8f8f8; 
+  border: 1px solid #ccc;     
+  border-radius: 8px;         
+  padding: 2px;
+  font-family: Consolas, monospace;
+  font-size: 15px;
+  overflow-x: auto;           
+}
+
+.blue {
+  color: blue;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+ p {
+  
+    font-size: 18px;
+    color: gray;
+    font-family: "Times New Roman", serif;
+}
+div{
+  border: 2px solid black;
+   background: rgb(254, 251, 251);
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 3px;
+}
+b{
+  color: black;
+}
+li {
+    margin-bottom: 10px; 
+    font-family: "Times New Roman", serif;
+    font-size: 17px; 
+}
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+li{
+   font-size: 18px;
+    color: gray;
+    font-family: "Times New Roman", serif;
+}
+#highlighted li::marker {
+  color: blue;
+  font-size: 20px;
+}
